@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.momo83.kasir'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'com.momo83.kasir'
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+    buildTypes { release { minifyEnabled false } }
+}
+dependencies {}
