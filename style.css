@@ -1,0 +1,2 @@
+body { font-family: Arial; background: var(--bg, #ffffff); color: var(--text, #000000); }
+.logo { width: 120px; }
