@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:padding="16dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etBg" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Background color (e.g. #ffffff)"/>
+        <EditText android:id="@+id/etText" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Text color (e.g. #000000)"/>
+        <EditText android:id="@+id/etLogo" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Logo filename in assets (logo.png)"/>
+        <Button android:id="@+id/btnSaveTheme" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Save Theme"/>
+        <ImageView android:id="@+id/ivLogo" android:layout_width="120dp" android:layout_height="120dp" android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</ScrollView>
