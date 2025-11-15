@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Edit Tema</title>
+</head>
+<body>
+  <h2>Edit Tema</h2>
+
+  <label>Warna Background:</label>
+  <input type="color" id="bgColor"><br><br>
+
+  <label>Warna Teks:</label>
+  <input type="color" id="textColor"><br><br>
+
+  <button onclick="saveTheme()">Simpan Tema</button>
+
+<script>
+function saveTheme(){
+  const bg = document.getElementById('bgColor').value;
+  const text = document.getElementById('textColor').value;
+  localStorage.setItem('theme_bg', bg);
+  localStorage.setItem('theme_text', text);
+  alert('Tema disimpan!');
+}
+</script>
+</body>
+</html>
